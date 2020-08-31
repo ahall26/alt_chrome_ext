@@ -1,0 +1,14 @@
+{
+  "name": "Anomoly",
+  "description": "Check site image accessibility",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabs", "storage", "sessions", "cookies", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Check site image accessibility"
+  },
+  "manifest_version": 2
+}
